@@ -30,7 +30,7 @@ int main() {
 		start = end;
 		end = n3;
 	}
-	
+
 	for (n1 = 1; n1 < 10; n1++){
 		for (n2 = start; start <= end; n2++) {
 			printf("%d * %d = %d\t", n2, n1, n1 * n2);
